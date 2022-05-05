@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15vh 15vw;
+    font-family: 'Open Sans', 'Ariel';
+    font-size: 1.875vw;
+    color: #353535;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    font-size: 5.6vw;
+    font-weight: 400;
+}
+
+p {
+    margin: 0 .5vw;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 600px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+} /* in case the screen is too small, the page will stop its responsiveness */
